@@ -2,7 +2,7 @@
   "name": "client",
   "version": "1.0.0",
   "description": "guitar-tabs project using vue.js",
-  "author": "Pierre-Antoine Brun <brun.pierre.antoine@gmail.com>",
+  "author": "Pierre-Antoine Brun <2004983+brunpierreantoine@users.noreply.github.com>",
   "private": true,
   "scripts": {
     "dev": "webpack-dev-server --inline --progress --config build/webpack.dev.conf.js",
