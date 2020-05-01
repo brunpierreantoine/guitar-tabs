@@ -10,9 +10,9 @@ app.use(bodyParser.json()) // Allow our app to easily parse any Json request tha
 app.use(cors()) // Allow any host or client to access this
 
 // Create an endpoint that, upon request, sends back an object (define route)
-app.get('/status', (req, res) => {
+app.post('/register', (req, res) => {
   res.send({
-    message: 'hello world!'
+    message: `Hello ${req.body.email}! Your user was registered! Have fun`
   })
 })
 
